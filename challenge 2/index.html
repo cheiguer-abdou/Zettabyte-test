@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h2 class="title">Simple Pricing</h2>
+            <p>The most advanced custommer support tools with a simple</p>
+            <p>and affordable pricing.
+            and you can always try for 30 days</p>
+            <p>free!</p>
+        </div>
+
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-title-container">   
+                    <h4 class="card-title">Basic</h4>
+                </div>
+
+                <div class="card-price">
+                    <p><sup><span>$</span></sup>4<sub><span>/month</span></sub></p>
+                </div>
+
+                <div class="line"><hr></div>
+
+                <div class="description">
+                    <p><span>10</span>  projects</p>
+                    <p><span>10</span> pages</p>
+                    <p><span>100</span> mb disk space</p>
+                </div>
+
+                <div class="footer">
+                    <button onclick="success()">Buy now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title-container">   
+                    <h4 class="card-title">Basic</h4>
+                </div>
+
+                <div class="card-price">
+                    <p><sup><span>$</span></sup>8<sub><span>/month</span></sub></p>
+                </div>
+
+                <div class="line"><hr></div>
+
+                <div class="description">
+                    <p><span>20</span>  projects</p>
+                    <p><span>20</span> pages</p>
+                    <p><span>200</span> mb disk space</p>
+                </div>
+
+                <div class="footer">
+                    <button onclick="success()">Buy now</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title-container">   
+                    <h4 class="card-title">Basic</h4>
+                </div>
+
+                <div class="card-price">
+                    <p><sup><span>$</span></sup>12<sub><span>/month</span></sub></p>
+                </div>
+
+                <div class="line"><hr></div>
+
+                <div class="description">
+                    <p><span>40</span>  projects</p>
+                    <p><span>40</span> pages</p>
+                    <p><span>500</span> mb disk space</p>
+                </div>
+
+                <div class="footer">
+                    <button onclick="success()">Buy now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="header">
+                <h2>Frequently asked questions</h2>
+            </div>
+
+            <footer>
+                <div class="qts">
+                    <h4>How does free trial work?</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque est adipisci repellat explicabo, ipsa ipsum provident ducimus! Eligendi iure, optio, adipisci expedita placeat ex pariatur delectus, earum quasi dolore iste?</p>
+                </div>
+
+                <div class="qts">
+                    <h4>Can i cancel anytime?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi animi delectus incidunt quidem atque expedita ut? Temporibus repudiandae maxime dicta, quasi neque, excepturi a numquam rem delectus iusto nihil debitis!</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <script>
+        const cards = document.querySelectorAll('.card');
+        for (let i = 0; i < cards.length; i++) {
+            cards[i].addEventListener('click', function(){
+                this.classList.toggle("select");
+            })
+        }
+            
+        function success(){
+            alert("success");
+        }
+    </script>
+</body>
+
+
+</html>

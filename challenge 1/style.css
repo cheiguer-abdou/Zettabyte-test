@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #3d3d3d;
+    font-family: sans-serif;
+}
+
+.card{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.avatar{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.avatar-p, .name{
+    margin: 0;
+}
+
+.avatar-pic{
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.photo{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+}
+
+.title{
+    color: rgb(102, 100, 100);
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mileage{
+    margin-top: 0;
+    font-size: 11px;
+    margin-left: 9px;
+    color: rgb(155, 154, 154);
+}
+
+.description{
+    margin-left: 10px;
+    margin-right: 9px;
+    font-size: 12px;
+    color: rgb(133, 132, 132);
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+    padding-bottom: 10px;
+}
+
+.card-footer2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.links{
+    display: flex;
+}
+
+.links a{
+    text-transform: uppercase;
+    color: rgb(29, 182, 243);
+    margin-right: 10px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons i{
+    margin-right: 10px;
+}
